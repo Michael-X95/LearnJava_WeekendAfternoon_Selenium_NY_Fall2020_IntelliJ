@@ -1,25 +1,26 @@
 package basic;
 
 public class LearnAccessModifier {
-	
-	//access modifier/access specifier: class, variable, method
-	//Private: only we can call or use within the class where it is located
-	//Public: we can call or use within the class where it is located and from any other class.
-	//Protected: only accessible from all the class of that particular package.
-	//Access modifier:
-	//Public
-	//Private
-	//Protected
-	//Default
 
-	private static int age = 24;
-	protected static int salary = 4000;
-	static String studentName= "James William";
-	
-	public static void main(String[] args) {
-		
-		System.out.println(LearnDataType.mobileBrand);
-		System.out.println(age);
-		System.out.println(studentName);
-		
-}}
+    //access modifier/access specifier: class, variable, method
+    //Private: only we can call or use within the class where it is located
+    //Public: we can call or use within the class where it is located and from any other class.
+    //Protected: only accessible from all the class of that particular package.
+    //Access modifier:
+    //Public
+    //Private
+    //Protected
+    //Default
+
+    private static int age = 24;
+    protected static int salary = 4000;
+    static String studentName = "James William";
+
+    public static void main(String[] args) {
+
+        System.out.println(LearnDataType.mobileBrand);
+        System.out.println(age);
+        System.out.println(studentName);
+
+    }
+}
