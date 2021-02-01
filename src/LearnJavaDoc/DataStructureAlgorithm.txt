@@ -95,7 +95,7 @@ index 1. Also be cautious of the termination.
 
 Data in 2D Array are stored in tabular form (in row major order)
 
-dataType[1st Dimension][2nd Dimension] =new dataType[size1][size2]
+dataType[1st Dimension][2nd Dimension] arrayName =new dataType[size1][size2]
 
 
 
